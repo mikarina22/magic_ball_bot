@@ -2,7 +2,7 @@ import telebot
 
 import random
 
-bot = telebot.TeleBot('6138378173:AAF6lYebC0mHo_cqK6pzJT4AmUXZhQvL_1w')
+bot = telebot.TeleBot('___') #Вместо ___ вставить токен телеграм-бота
 
 # Функция, обрабатывающая команду /start
 @bot.message_handler(commands=["start"])
